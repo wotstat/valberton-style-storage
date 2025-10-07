@@ -9,6 +9,6 @@ services:
     environment:
       - ADMIN_TOKEN
     ports:
-      - "9108:3000"
+      - "9109:3000"
     volumes:
       - ../SQLite:/app/SQLite
